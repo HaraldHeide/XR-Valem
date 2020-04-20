@@ -17,6 +17,20 @@ MonoBehaviour:
   m_AutomaticRunning: 0
   m_Loaders:
   - {fileID: 11400000, guid: 9d9928bd6ac348a4b8f3f8a6a094cd20, type: 2}
+--- !u!114 &-2153127985693407266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d236b7d11115f2143951f1e14045df39, type: 3}
+  m_Name: Metro Settings
+  m_EditorClassIdentifier: 
+  m_LoaderManagerInstance: {fileID: 4602561874772905925}
+  m_InitManagerOnStart: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29,10 +43,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2dc886499c26824283350fa532d087d, type: 3}
   m_Name: XRGeneralSettings
   m_EditorClassIdentifier: 
-  Keys: 0100000007000000
+  Keys: 01000000070000000e000000
   Values:
   - {fileID: 3378915998585278640}
   - {fileID: 6732677129822844197}
+  - {fileID: -2153127985693407266}
 --- !u!114 &988176224589871414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49,7 +64,7 @@ MonoBehaviour:
   m_AutomaticLoading: 0
   m_AutomaticRunning: 0
   m_Loaders:
-  - {fileID: 11400000, guid: 9d9928bd6ac348a4b8f3f8a6a094cd20, type: 2}
+  - {fileID: 11400000, guid: 4206c3ca325af8947ab5e5ab498c1fa2, type: 2}
 --- !u!114 &3378915998585278640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64,6 +79,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LoaderManagerInstance: {fileID: 988176224589871414}
   m_InitManagerOnStart: 1
+--- !u!114 &4602561874772905925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c3631f5e58749a59194e0cf6baf6d5, type: 3}
+  m_Name: Metro Providers
+  m_EditorClassIdentifier: 
+  m_RequiresSettingsUpdate: 0
+  m_AutomaticLoading: 0
+  m_AutomaticRunning: 0
+  m_Loaders: []
 --- !u!114 &6732677129822844197
 MonoBehaviour:
   m_ObjectHideFlags: 0
